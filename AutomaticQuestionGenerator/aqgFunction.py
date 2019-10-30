@@ -142,9 +142,9 @@ class AutomaticQuestionGenerator():
 
     # AQG Display the Generated Question
     def display(self, str):
-        print("\n")
-        print("------X------")
-        print("Start  output:\n")
+        # print("\n")
+        # print("------X------")
+        # print("Start  output:\n")
 
         count = 0
         out = ""
@@ -169,12 +169,12 @@ class AutomaticQuestionGenerator():
                                 print("Q-%d: %s" % (count, str[i]))
                                 out += "Q-" + count.__str__() + ": " + str[i] + "\n"
 
-        print("")
-        print("End  OutPut")
-        print("-----X-----\n\n")
+        # print("")
+        # print("End  OutPut")
+        # print("-----X-----\n\n")
 
-        output = "output file path -- ?? ../DB/output.txt"
-        w = open(output, 'w+', encoding="utf8")
-        w.write(out)
-        w.close()
-        return 0
+        # output = "output.txt"
+        # w = open(output, 'w+', encoding="utf8")
+        # w.write(out)
+        # w.close()
+        return out
