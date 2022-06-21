@@ -13,7 +13,7 @@ Jinja2==2.10.3
 MarkupSafe==1.1.1
 murmurhash==1.0.2
 nltk==3.4.5
-numpy==1.17.2
+numpy==1.22.0
 plac==0.9.6
 preshed==3.0.2
 requests==2.22.0
